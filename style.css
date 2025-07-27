@@ -25,8 +25,8 @@ body {
     align-items: center;
     justify-content: center;
     min-height: calc(100vh - 0.0625rem);
-    background-color: var(--grey100);
-    font-family: 'Barlow Semi Condensed';
+    background-color: hsl(0, 0%, 96%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: 500;
     font-size: 14px;
     padding: 4rem 2rem;
@@ -81,7 +81,7 @@ body {
 .card {
     padding: 2rem;
     border-radius: 0.625rem;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
 }
 
 #card1 {
